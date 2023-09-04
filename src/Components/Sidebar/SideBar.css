@@ -1,0 +1,102 @@
+/* Sidebar styling */
+.sidebar-components {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 250px;
+    background-color: #fff;
+    position: fixed;
+}
+
+.nav-menu-items {
+display: flex;
+flex-direction: column;
+align-self: start;
+gap: 2rem;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+}
+.add-btn {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+.profile-card {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+.lower-nav-menu {
+  width: 100%;
+  display: inline-flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+.add-task-btn{
+  width: 100%;
+}
+.profile-card {
+  width: 95%;
+  background-color: white;
+}
+.profile-pic {
+  width: 30%;
+  border-radius: 40px 40px 40px 40px;
+}
+.username-email {
+  width: 70%;
+  text-align: center;
+}
+.details, .email {
+  color: black;
+  width: 100%;
+  overflow: visible;
+}
+/* .username-email {
+    width: 50%;
+} */
+
+
+  /* Media query for mobile devices (max width: 767px) */
+/* @media screen and (max-width: 767px) {
+    .nav-menu {
+      flex-direction: column;
+      padding-top: 1.5rem;
+    }
+  
+    .item-title {
+      padding-left: 0.8rem;
+    }
+  
+    .lower-nav-menu {
+      gap: 40px;
+    }
+  
+    .add-btn {
+      width: 120px;
+      height: 40px;
+    }
+  
+    .profile-card {
+      flex-direction: column;
+      padding-bottom: 5px;
+    }    
+    
+    .name {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  
+    .email {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  } */

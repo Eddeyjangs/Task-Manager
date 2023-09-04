@@ -1,0 +1,14 @@
+/* Layout Styling */
+.layout {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.left{
+    width: 250px;
+}
+.right-layout {
+    width: 100%;
+    border: 5px solid yellow;
+    flex: 1;
+    background-color: #F5F5F9;
+}

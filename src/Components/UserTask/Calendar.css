@@ -1,0 +1,8 @@
+.calendar {
+    background-color: #fff;
+    border-radius: 6px;
+    width: 34%;
+    position: relative;
+    bottom: 16.5rem;
+    box-shadow: 0px 3px 8px 4px rgba(50, 71, 92, 0.02), 0px 6px 11px 1px rgba(50, 71, 92, 0.04), 0px 3px 11px 3px rgba(50, 71, 92, 0.06)
+}

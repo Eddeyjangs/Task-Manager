@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.CardContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.InProgress, .InReview, .Done, .Live {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50%;
+    align-items: flex-start;
+    padding: 1rem;
+}
+.one {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(50, 71, 92, 0.87);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.InProgressText h3, .InReviewText h3, .DoneText h3, .LiveText h3 {
+    font-size: 22px;
+}
+.two {
+    width: 100%;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 9px;
+    background-color: #fff;
+    box-shadow:  0px 2px 6px 4px rgba(50, 71, 92, 0.02), 0px 4px 9px 1px rgba(50, 71, 92, 0.04), 0px 2px 9px 0px rgba(50, 71, 92, 0.06);
+}
+.Chip {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #72E1281F;
+}
+.Text {
+    width: 100%;
+    align-self: stretch;
+    color:  rgba(50, 71, 92, 0.60);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Public Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.IconsAvatar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.Icons {
+    color: #32475C99;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+}
+.PaperClip, .Chat {
+    display: flex;
+}
+.Avatar {
+    width: 30%;
+}
+.Avatar img {
+    width: 100%;
+}
+.three {
+    width: 100%;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 9px;
+    background-color: #fff;
+    box-shadow:  0px 2px 6px 4px rgba(50, 71, 92, 0.02), 0px 4px 9px 1px rgba(50, 71, 92, 0.04), 0px 2px 9px 0px rgba(50, 71, 92, 0.06);
+}
+.threeX {
+    border-radius: 9px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px 4px rgba(50, 71, 92, 0.02), 0px 4px 9px 1px rgba(50, 71, 92, 0.04), 0px 2px 9px 0px rgba(50, 71, 92, 0.06);
+}
+.ImageWrapper, .ImageWrapper img  {
+    width: 100%;
+}
+.textX {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    padding: 0px 12px;
+    border-radius: 6px;
+    font-family: Public Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.15px;
+    color: black; 
+    box-shadow: 0px 2px 6px 4px rgba(50, 71, 92, 0.02), 0px 4px 9px 1px rgba(50, 71, 92, 0.04), 0px 2px 9px 0px rgba(50, 71, 92, 0.06);
+}
+.AddCancle {
+    border-radius: 9px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+}
+.Add {
+    padding: 0.3rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 37%;
+    background-color: black;
+    color: #fff;
+    box-shadow:  1px 4px 2px rgba(50, 71, 92, 0.02), 0px 2px 6px 1px rgba(50, 71, 92, 0.04), 0px 1px 6px 2px rgba(50, 71, 92, 0.06);
+    
+}
+.Cancle {
+    padding: 0.3rem;
+    width: 37%;
+    align-items: center;
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 4px 2px rgba(50, 71, 92, 0.02), 0px 2px 6px 1px rgba(50, 71, 92, 0.04), 0px 1px 6px 2px rgba(50, 71, 92, 0.06);
+    background-color: #8592A3;
+    color: #fff;
+}
+.Add h3, .Cancle h3 {
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.46px;
+    text-transform: uppercase;
+}
+
+

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(122, 117, 117, 0.482);
+    width: 100%;
+    /* align-items: center; */
+}
+
+.container {
+    width: 727px;
+    height: 395px;
+    margin: 120px auto;
+    background-color: rgb(6, 6, 61);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.ads {
+    border-radius: 1rem;
+    padding: 1rem;
+    align-items: center;
+    width: 40%;
+    margin-top: 5rem;
+}
+.pheonix, .phoenixtext {
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.phoenixtext {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1rem;
+    word-spacing: 2px;
+}
+.pheoniximage {
+    width: 50%;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+.phoenixH1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    color: #fff;
+    text-align: center;
+}
+.phoenixH2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.phoenixP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+}
+.userlogin {
+    border-radius: 1rem;
+    padding: 1rem;
+    align-items: center;
+    background-color: #f4f3f3;
+    width: 45%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.holder {
+    margin: 1rem;
+}
+.login {
+    padding: 1rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+    color: #301b52;
+}
+.username {
+    border-radius: 20px;
+    background: #f6f6f6;
+    margin-bottom: 2rem;
+}
+.password {
+    border-radius: 20px;
+    background: #f6f6f6;
+    margin-bottom: 2rem;
+    
+}
+.input {
+    margin-left: 1rem;
+    width: 235px;
+    height: 22px;
+    color: black;
+    font-size: 12px;
+    line-height: normal;
+}
+.LoginSignup {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.link {
+    width: 87px;
+    height: 26px;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #110328;
+    color: #fff;
+}
+.signup {
+    width: 87px;
+    height: 26px;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: red;
+    color: #fff;
+}
